@@ -1,5 +1,9 @@
 # Arduino-Domotics
-Complete framework to get Arduino as Home controller for devices using modbus RTU
+Complete framework to get Arduino as Home controller for devices using:
+- modbus RTU: to communicate with a wide range of I/O (Digital inputs, relays outputs, Power meters, Temperature and Humidity sensors); There is a built in library of compatible devices and can be added as your needs.
+- modbus TCP Server: to communicate with Weintek touch-panels
+- modbus TCP Client: to communicate with Ethernet to RS485 gateways
+- ethernet UDP: to communicate to IOT module to control home by phone using Arduino Cloud
 
 Modular, Non‑Blocking, Extensible Home Automation System for Arduino + Modbus
 This repository contains a complete automation framework designed for advanced home control systems based on:
